@@ -6,6 +6,8 @@
 }
 
 .header {
+  display: flex;
+  align-items: center;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -28,13 +30,13 @@
 }
 
 .header__title {
+  position: relative;
+  z-index: 10;
   font-size: 102px;
   line-height: 96px;
   font-weight: 700;
   max-width: 730px;
-  position: relative;
   margin: 0 0 0 64px;
-  top: 20%;
 }
 
 .header__subtitle {
@@ -45,6 +47,7 @@
   bottom: 30px;
   left: 64px;
   margin: 0;
+  z-index: 11;
 }
 
 .header__link {
@@ -118,6 +121,8 @@
 }
 
 .section-title {
+  position: relative;
+  z-index: 12;
   font-size: 60px;
   line-height: 1.15;
   font-weight: 700;
